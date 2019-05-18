@@ -28,8 +28,9 @@ int main() {
         else if(tenth==7)s1="seventy"; 
         else if(tenth==8)s1="eighty";
         else if(tenth==9)s1="ninety";}
-    else if(num>=11&&num<=19){sf=1;
-        if(num==11)s2="eleven";
+    else if(num>=10&&num<=19){sf=1;
+        if(num==10)s2="ten";
+        else if(num==11)s2="eleven";
         else if(num==12)s2="twelve";
         else if(num==13)s2="thirteen";
         else if(num==14)s2="fourteen";
@@ -44,3 +45,4 @@ int main() {
     else
     printf("%s-%s",s1,s2);
 }
+ 
